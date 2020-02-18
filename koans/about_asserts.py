@@ -50,8 +50,8 @@ class AboutAsserts(Koan):
         Understand what lies within.
         """
 
-        # This throws an AssertionError exception
-        assert False 
+        # This throws an AssertionError exception    
+        self.assertFalse(False)    
 
     def test_that_sometimes_we_need_to_know_the_class_type(self):
         """
